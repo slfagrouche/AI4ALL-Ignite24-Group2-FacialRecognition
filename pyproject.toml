@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "facial_recognition_project"
+version = "0.0.1"
+description = "This project is part of AI4ALL Ignite '24 - Group 2, focusing on Computer Vision. The main objective is to explore, develop, and implement facial recognition technologies using deep learning techniques. The repository contains data processing scripts, model training code, and a web interface to demonstrate the application of facial recognition for real-world use cases."
+authors = [
+  { name = "Group_2" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "~=3.10"
+
+[tool.black]
+line-length = 99
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+)/
+'''
+
+[tool.ruff.lint.isort]
+known_first_party = ["facial_recognition_project"]
+force_sort_within_sections = true
