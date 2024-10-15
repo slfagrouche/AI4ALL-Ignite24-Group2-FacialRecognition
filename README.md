@@ -1,9 +1,5 @@
 # facial_recognition_project
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
-
 This project is part of AI4ALL Ignite '24 - Group 2, focusing on Computer Vision. The main objective is to explore, develop, and implement facial recognition technologies using deep learning techniques. The repository contains data processing scripts, model training code, and a web interface to demonstrate the application of facial recognition for real-world use cases.
 
 ## Project Organization
